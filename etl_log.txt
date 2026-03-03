@@ -1,0 +1,8 @@
+2026-03-03 15:33:41,898 - --- ETL JOB STARTED ---
+2026-03-03 15:33:41,898 - ETL Failed: No valid CSV or JSON files found in 'input_data/'
+2026-03-03 15:35:09,888 - --- ETL JOB STARTED ---
+2026-03-03 15:35:09,926 - Successfully read CSV: Input Data\raw_sales_data.csv
+2026-03-03 15:35:09,932 - Successfully read JSON: Input Data\raw_sales_data.json
+2026-03-03 15:35:09,936 - Dropped 1 rows due to missing price.
+2026-03-03 15:35:09,941 - Data transformation complete.
+2026-03-03 15:35:09,945 - --- JOB FINISHED SUCCESS: Saved to output_data/clean_data.csv ---
